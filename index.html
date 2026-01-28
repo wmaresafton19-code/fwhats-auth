@@ -1,0 +1,140 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FWHATS | Autenticidad</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body {
+      background: radial-gradient(circle at top, #111 0%, #000 60%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      max-width: 430px;
+      width: 100%;
+      background: linear-gradient(180deg, #0b0b0b, #000);
+      border-radius: 24px;
+      padding: 34px 26px;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.9), inset 0 0 0 1px rgba(255,255,255,0.08);
+      position: relative;
+      overflow: hidden;
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.08), transparent 70%);
+      animation: shine 4s infinite;
+    }
+    @keyframes shine {
+      0% { transform: translateX(-100%); }
+      50% { transform: translateX(100%); }
+      100% { transform: translateX(100%); }
+    }
+    .logo {
+      font-size: 42px;
+      font-weight: 900;
+      letter-spacing: 4px;
+      margin-bottom: 6px;
+      position: relative;
+      z-index: 1;
+    }
+    .sub {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #aaa;
+      margin-bottom: 18px;
+      position: relative;
+      z-index: 1;
+    }
+    .badge {
+      display: inline-block;
+      margin: 18px 0 8px;
+      padding: 10px 20px;
+      border: 2px solid #fff;
+      border-radius: 40px;
+      font-weight: bold;
+      font-size: 13px;
+      letter-spacing: 1px;
+      position: relative;
+      z-index: 1;
+    }
+    h2 {
+      margin-top: 16px;
+      font-size: 22px;
+      position: relative;
+      z-index: 1;
+    }
+    .divider {
+      width: 70px;
+      height: 3px;
+      background: #fff;
+      margin: 22px auto;
+      position: relative;
+      z-index: 1;
+    }
+    p {
+      margin-top: 14px;
+      font-size: 15px;
+      line-height: 1.7;
+      color: #cfcfcf;
+      position: relative;
+      z-index: 1;
+    }
+    .info {
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(255,255,255,0.12);
+      font-size: 14px;
+      color: #bdbdbd;
+      position: relative;
+      z-index: 1;
+    }
+    .code {
+      margin-top: 10px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #fff;
+    }
+    .footer {
+      margin-top: 28px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: #777;
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">FWHATS</div>
+    <div class="sub">AUTHENTIC STREETWEAR</div><div class="badge">VERIFIED ORIGINAL</div>
+
+<h2>Autenticidad Confirmada</h2>
+<div class="divider"></div>
+
+<p>
+  Esta pieza pertenece a una <strong>edición original</strong> de FWHATS.
+  Cada gorra es registrada individualmente para proteger la autenticidad
+  y el valor de la marca.
+</p>
+
+<div class="info">
+  ID de autenticidad
+  <div class="code">FW-001-ORIGINAL</div>
+</div>
+
+<div class="footer">
+  © 2026 FWHATS · Independent Street Culture
+</div>
+
+  </div>
+</body>
+</html>
